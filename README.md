@@ -110,8 +110,6 @@ spec:
           tcpSocket:
             port: 80
           timeoutSeconds: 2
-      imagePullSecrets:
-      - name: docker-registry
       volumes:
       - name: php-dav-rook-ceph-block
         persistentVolumeClaim:
