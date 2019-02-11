@@ -1,3 +1,8 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/oursource/php-dav.svg)](https://hub.docker.com/r/oursource/php-dav/)
+[![Docker layers](https://images.microbadger.com/badges/image/oursource/php-dav.svg)](https://microbadger.com/images/oursource/php-dav)
+[![Github Stars](https://img.shields.io/github/stars/our-source/php-dav.svg?label=github%20%E2%98%85)](https://github.com/our-source/php-dav/)
+[![Github Stars](https://img.shields.io/github/contributors/our-source/php-dav.svg)](https://github.com/our-source/php-dav/)
+
 # A DAV enabled PHP image
 
 ## How to use
