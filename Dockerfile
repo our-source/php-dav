@@ -7,4 +7,4 @@ RUN apt-get -qq update && \
     docker-php-source extract && \
     docker-php-ext-install -j$(nproc) soap && \
     docker-php-source delete && \
-    a2enmod dav dav_fs dav_lock
+    a2enmod dav dav_fs dav_lock rewrite

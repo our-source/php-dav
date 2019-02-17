@@ -29,6 +29,12 @@ data:
       DAV On
       DirectorySlash Off
       php_admin_value engine Off
+
+      # When the host website runs at https as a proxy
+      # you need to rewrite the destination of the target.
+      # Read for more information:
+      # https://httpd.apache.org/docs/current/mod/mod_headers.html
+      RequestHeader edit Destination ^https: http: early
     </Location>
 
     <Directory "/var/www/html">
